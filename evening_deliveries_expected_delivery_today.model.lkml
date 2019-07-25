@@ -13,6 +13,7 @@ persist_with: evening_deliveries_expected_delivery_today_default_datagroup
 
 explore: evening_deliveries_expected_delivery_today {
   group_label: "Evening Deliveries"
+  label: "Expected Evening Deliveries for today"
   fields: [ALL_FIELDS*]
 #,-evening_deliveries_logistics_sc_view.id, -evening_deliveries_logistics_sc_view.tracking_number
   join: evening_deliveries_logistics_sc_view {
