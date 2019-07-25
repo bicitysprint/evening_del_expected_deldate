@@ -688,6 +688,7 @@ view: evening_deliveries_expected_delivery_today {
       status,
       location,
       created_time,
+      citytrak_service,
       goods_description,
       package_type,
       requested_route,
